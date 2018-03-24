@@ -19,7 +19,7 @@ public class Service {
         String cnp = "null";
         List<Patient> patients = database.getPatients();
         for(Patient patient: patients){
-            if(patient.getCode() == Integer.valueOf(code)){
+            if(patient.getCode() == Integer.parseInt(code)){
                 cnp = patient.getCnp().substring(9, 13);
                 break;
             }

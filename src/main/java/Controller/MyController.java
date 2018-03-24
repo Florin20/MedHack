@@ -28,13 +28,32 @@ public class MyController {
 
     @RequestMapping(path = {"/loginPage"}, method = RequestMethod.POST)
     public String loginPage(Model model, @RequestParam String type, @RequestParam String code) {
-        String cnp = service.checkPatient(code);
-        if ("null".equals(cnp)) {
-            return "error-invalid";
-        } else {
-            model.addAttribute("code", code);
-            return "cnp-validation";
+        String returnedView = "error-invalid";
+        if(type.equals("Patient")) {
+            String cnp = service.checkPatient(code);
+            if (! "null".equals(cnp)) {
+                returnedView = "cnp-validation";
+            }
         }
+        else {
+            List<Patient> patients = service.getDatabase().getPatients();
+            List<Patient> newPatients = new ArrayList<Patient>();
+            for (Patient p : patients) {
+                if (p.getMedicalFile().getResponsiblePhysician().toString().equals(code)) {
+                    newPatients.add(p);
+                }
+            }
+            if (newPatients.isEmpty()) {
+                return "error-invalid";
+            } else {
+                model.addAttribute("physicianId", code);
+                model.addAttribute("patientList", newPatients);
+                returnedView = "physicianPatients";
+
+            }
+        }
+            return returnedView;
+
     }
 
     @RequestMapping(path = {"/checkIdNumber/{code}"}, method = RequestMethod.POST)
