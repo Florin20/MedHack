@@ -27,6 +27,7 @@ public class MyController {
     public String loginPage(Model model, @RequestParam String type,  @RequestParam String code){
         String cnp = service.checkPatient(code);
         if("null".equals(cnp)){
+            model.addAttribute("code", code);
             return "error-invalid";
         }
         else{
@@ -39,6 +40,7 @@ public class MyController {
     public String idNumber(Model model, @RequestParam String cnp, @PathVariable("code") String code){
         String returnView = "error-invalid";
         String correctCnp = service.checkPatient(code);
+        model.addAttribute("correctcnp", correctCnp);
         if(correctCnp.equals(cnp))
             returnView = "home";
 

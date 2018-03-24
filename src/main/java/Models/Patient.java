@@ -76,5 +76,18 @@ public class Patient {
     public void setCnp(String cnp) {
         this.cnp = cnp;
     }
+
+    @Override
+    public String toString() {
+        return "Patient{" +
+                "code=" + code +
+                ", cnp='" + cnp + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                ", medicalFile=" + medicalFile +
+                '}';
+    }
 }
 

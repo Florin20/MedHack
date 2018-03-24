@@ -9,19 +9,19 @@ import java.util.List;
 
 public class Service {
 
-    private Database database;
+    private Database database = new Database();
 
     public Service(){
 
-        database = new Database();
     }
 
     public String checkPatient(String code){
         String cnp = "null";
         List<Patient> patients = database.getPatients();
         for(Patient patient: patients){
-            if(patient.getCode().equals(code)){
-                cnp = patient.getCnp().substring(9, 12);
+            if(patient.getCode() == Integer.valueOf(code)){
+                cnp = patient.getCnp().substring(9, 13);
+                break;
             }
         }
         return cnp;

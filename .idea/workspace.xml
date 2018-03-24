@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ae6d5fc-cb8a-48c2-85cf-68adcf41a197" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/Controller/MyController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/Models/MedicalFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-aop-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-beans-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-context-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-core-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-expression-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-jcl-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-web-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/lib/spring-webmvc-5.0.4.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/views/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test/WEB-INF/web.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Models/MedicalFile.java" afterPath="$PROJECT_DIR$/src/main/java/Models/MedicalFile.java" />
-=======
+
 <<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Models/Physician.java" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Models/Recommendation.java" />
@@ -984,9 +966,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Models/Patient.java" />
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/Models/MedicalFile.java" />
-=======
->>>>>>> a438fcfe532a9ad37e07dee7d1cff72109043e18
->>>>>>> bb76d4db4981e41af255086b46a65ca647c07306
       </list>
     </option>
   </component>
