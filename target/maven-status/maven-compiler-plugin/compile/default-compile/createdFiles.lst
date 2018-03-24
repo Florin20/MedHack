@@ -1,2 +1,6 @@
-Models\CData.class
+Models\MedicalFile.class
+Models\Recommendation.class
+Models\Physician.class
+Models\Patient.class
 Controller\MyController.class
+Database\Database.class

@@ -67,3 +67,4 @@ public class Patient {
         this.medicalFile = medicalFile;
     }
 }
+

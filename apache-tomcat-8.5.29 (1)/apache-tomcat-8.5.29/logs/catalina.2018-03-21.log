@@ -1,0 +1,383 @@
+21-Mar-2018 23:12:00.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:12:00.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:12:00.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:12:00.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:12:00.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:12:00.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:12:00.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:12:00.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:12:00.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:12:00.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:12:00.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:12:00.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:12:00.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:12:00.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:12:00.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:12:00.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:12:00.310 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:12:00.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:12:00.701 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:12:00.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:12:00.721 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:12:00.723 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1855 ms
+21-Mar-2018 23:12:00.900 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:12:00.902 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:12:00.937 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:12:01.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [741] ms
+21-Mar-2018 23:12:01.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:12:02.347 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [667] ms
+21-Mar-2018 23:12:02.348 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:12:02.399 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [51] ms
+21-Mar-2018 23:12:02.401 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:12:02.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [49] ms
+21-Mar-2018 23:12:02.451 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:12:02.495 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [43] ms
+21-Mar-2018 23:12:02.501 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:12:02.520 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:12:02.527 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1803 ms
+21-Mar-2018 23:22:40.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:22:40.583 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:22:40.584 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:22:40.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:22:40.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:22:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:22:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:22:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:22:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:22:40.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:22:40.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:22:40.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:22:40.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:22:40.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:22:40.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:22:40.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:22:40.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:22:40.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:22:40.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:22:40.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:22:40.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:22:40.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:22:40.666 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:22:40.802 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:22:40.811 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:22:40.816 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:22:40.818 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 883 ms
+21-Mar-2018 23:22:40.920 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:22:40.921 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:22:40.987 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war]
+21-Mar-2018 23:22:43.476 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 23:22:43.610 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+21-Mar-2018 23:22:43.955 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization started
+21-Mar-2018 23:22:44.066 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:22:44 EET 2018]; root of context hierarchy
+21-Mar-2018 23:22:44.726 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:22:44 EET 2018]; root of context hierarchy
+21-Mar-2018 23:22:44.921 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization completed in 965 ms
+21-Mar-2018 23:22:44.938 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war] has finished in [3,950] ms
+21-Mar-2018 23:22:44.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:22:44.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [50] ms
+21-Mar-2018 23:22:44.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:22:45.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [466] ms
+21-Mar-2018 23:22:45.456 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:22:45.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [45] ms
+21-Mar-2018 23:22:45.501 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:22:45.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [45] ms
+21-Mar-2018 23:22:45.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:22:45.581 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [33] ms
+21-Mar-2018 23:22:45.589 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:22:45.627 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:22:45.632 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4812 ms
+21-Mar-2018 23:25:40.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:25:40.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:25:40.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:25:40.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:25:40.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:25:40.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:25:40.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:25:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:25:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:25:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:25:40.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:25:40.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:25:40.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:25:40.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:25:40.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:25:40.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:25:40.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:25:40.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:25:40.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:25:40.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:25:40.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:25:40.864 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:25:40.934 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:25:41.059 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:25:41.069 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:25:41.079 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:25:41.080 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 844 ms
+21-Mar-2018 23:25:41.185 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:25:41.189 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:25:41.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war]
+21-Mar-2018 23:25:42.938 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 23:25:43.320 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization started
+21-Mar-2018 23:25:43.370 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:25:43 EET 2018]; root of context hierarchy
+21-Mar-2018 23:25:43.710 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:25:43 EET 2018]; root of context hierarchy
+21-Mar-2018 23:25:43.833 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization completed in 512 ms
+21-Mar-2018 23:25:43.849 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war] has finished in [2,622] ms
+21-Mar-2018 23:25:43.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:25:43.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [52] ms
+21-Mar-2018 23:25:43.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:25:44.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [350] ms
+21-Mar-2018 23:25:44.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:25:44.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [50] ms
+21-Mar-2018 23:25:44.309 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:25:44.356 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [47] ms
+21-Mar-2018 23:25:44.357 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:25:44.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [34] ms
+21-Mar-2018 23:25:44.398 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:25:44.416 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:25:44.427 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3345 ms
+21-Mar-2018 23:26:46.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:26:46.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:26:46.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:26:46.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:26:46.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:26:46.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:26:46.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:26:46.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:26:46.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:26:46.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:26:46.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:26:46.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:26:46.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:26:46.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:26:46.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:26:46.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:26:46.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:26:46.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:26:46.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:26:46.540 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:26:46.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:26:46.544 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:26:46.613 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:26:46.732 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:26:46.743 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:26:46.748 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:26:46.749 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 884 ms
+21-Mar-2018 23:26:46.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:26:46.846 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:26:46.880 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war]
+21-Mar-2018 23:26:46.929 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test] was found with a last modified time that did not match the associated WAR. It will be deleted.
+21-Mar-2018 23:26:49.028 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 23:26:49.357 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization started
+21-Mar-2018 23:26:49.409 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:26:49 EET 2018]; root of context hierarchy
+21-Mar-2018 23:26:49.722 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:26:49 EET 2018]; root of context hierarchy
+21-Mar-2018 23:26:49.816 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization completed in 459 ms
+21-Mar-2018 23:26:49.831 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war] has finished in [2,950] ms
+21-Mar-2018 23:26:49.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:26:49.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [44] ms
+21-Mar-2018 23:26:49.879 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:26:50.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [358] ms
+21-Mar-2018 23:26:50.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:26:50.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [50] ms
+21-Mar-2018 23:26:50.289 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:26:50.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [46] ms
+21-Mar-2018 23:26:50.336 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:26:50.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [31] ms
+21-Mar-2018 23:26:50.377 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:26:50.394 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:26:50.400 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3649 ms
+21-Mar-2018 23:30:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:30:02.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:30:02.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:30:02.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:30:02.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:30:02.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:30:02.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:30:02.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:30:02.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:30:02.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:30:02.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:30:02.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:30:02.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:30:02.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:30:02.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:30:02.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:30:02.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:30:02.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:30:02.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:30:02.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:30:02.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:30:02.652 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:30:02.731 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:30:02.757 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:68)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+21-Mar-2018 23:30:02.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:30:02.767 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:632)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:655)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:433)
+	at java.base/sun.nio.ch.Net.bind(Net.java:425)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1086)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:268)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+21-Mar-2018 23:30:02.769 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 756 ms
+21-Mar-2018 23:30:02.870 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:30:02.874 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:30:02.917 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war]
+21-Mar-2018 23:30:05.007 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 23:30:05.160 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+21-Mar-2018 23:30:05.412 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization started
+21-Mar-2018 23:30:05.467 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:30:05 EET 2018]; root of context hierarchy
+21-Mar-2018 23:30:05.793 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:30:05 EET 2018]; root of context hierarchy
+21-Mar-2018 23:30:05.933 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization completed in 520 ms
+21-Mar-2018 23:30:05.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war] has finished in [3,035] ms
+21-Mar-2018 23:30:05.956 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:30:05.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [39] ms
+21-Mar-2018 23:30:05.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:30:06.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [396] ms
+21-Mar-2018 23:30:06.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:30:06.443 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [51] ms
+21-Mar-2018 23:30:06.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:30:06.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [44] ms
+21-Mar-2018 23:30:06.489 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:30:06.522 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [33] ms
+21-Mar-2018 23:30:06.530 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3760 ms
+21-Mar-2018 23:30:06.538 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: NET_Bind
+	at java.base/java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.base/java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.PlainSocketImpl.bind(PlainSocketImpl.java:174)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:769)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:715)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:353)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:493)
+
+21-Mar-2018 23:30:06.541 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:30:06.544 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:30:06.545 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+21-Mar-2018 23:30:06.627 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:30:05 EET 2018]; root of context hierarchy
+21-Mar-2018 23:30:06.649 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:30:06.651 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:30:06.653 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:30:06.654 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:30:12.430 WARNING [http-nio-8080-exec-7] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/test/app/hello] in DispatcherServlet with name 'app'
+21-Mar-2018 23:30:18.266 WARNING [http-nio-8080-exec-10] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/test/app/] in DispatcherServlet with name 'app'
+21-Mar-2018 23:33:48.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.29
+21-Mar-2018 23:33:48.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 5 2018 13:11:12 UTC
+21-Mar-2018 23:33:48.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.29.0
+21-Mar-2018 23:33:48.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Mar-2018 23:33:48.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Mar-2018 23:33:48.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2018 23:33:48.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-9
+21-Mar-2018 23:33:48.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           9+181
+21-Mar-2018 23:33:48.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2018 23:33:48.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:33:48.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:33:48.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Mar-2018 23:33:48.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Mar-2018 23:33:48.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\conf\logging.properties
+21-Mar-2018 23:33:48.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2018 23:33:48.246 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2018 23:33:48.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2018 23:33:48.248 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Mar-2018 23:33:48.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:33:48.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Florin\Desktop\apache-tomcat-8.5.29
+21-Mar-2018 23:33:48.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Florin\Desktop\apache-tomcat-8.5.29\temp
+21-Mar-2018 23:33:48.256 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Python27;C:\Program Files\CMake\bin;C:\Users\Florin\Desktop\apache-maven-3.5.3\bin;%JAVA_HOME%;C:\Users\Florin\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\clisp-2.49;.]
+21-Mar-2018 23:33:48.323 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:33:48.485 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:33:48.494 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:33:48.499 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2018 23:33:48.501 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 960 ms
+21-Mar-2018 23:33:48.598 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Mar-2018 23:33:48.599 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.29
+21-Mar-2018 23:33:48.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war]
+21-Mar-2018 23:33:48.710 INFO [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand An expanded directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test] was found with a last modified time that did not match the associated WAR. It will be deleted.
+21-Mar-2018 23:33:51.030 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Mar-2018 23:33:51.425 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization started
+21-Mar-2018 23:33:51.489 INFO [localhost-startStop-1] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:33:51 EET 2018]; root of context hierarchy
+21-Mar-2018 23:33:51.791 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'app-servlet': startup date [Wed Mar 21 23:33:51 EET 2018]; root of context hierarchy
+21-Mar-2018 23:33:51.892 INFO [localhost-startStop-1] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'app': initialization completed in 467 ms
+21-Mar-2018 23:33:51.907 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\test.war] has finished in [3,275] ms
+21-Mar-2018 23:33:51.909 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs]
+21-Mar-2018 23:33:51.974 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\docs] has finished in [65] ms
+21-Mar-2018 23:33:51.975 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples]
+21-Mar-2018 23:33:55.504 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\examples] has finished in [3,529] ms
+21-Mar-2018 23:33:55.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager]
+21-Mar-2018 23:33:55.589 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\host-manager] has finished in [84] ms
+21-Mar-2018 23:33:55.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager]
+21-Mar-2018 23:33:55.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\manager] has finished in [82] ms
+21-Mar-2018 23:33:55.673 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT]
+21-Mar-2018 23:33:55.727 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Florin\Desktop\apache-tomcat-8.5.29\webapps\ROOT] has finished in [53] ms
+21-Mar-2018 23:33:55.732 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Mar-2018 23:33:55.744 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2018 23:33:55.747 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7245 ms
+21-Mar-2018 23:33:55.847 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/test/hello] in DispatcherServlet with name 'app'
+21-Mar-2018 23:33:57.301 WARNING [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/test/hello] in DispatcherServlet with name 'app'
+21-Mar-2018 23:34:08.638 WARNING [http-nio-8080-exec-4] org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping found for HTTP request with URI [/test/hello] in DispatcherServlet with name 'app'
