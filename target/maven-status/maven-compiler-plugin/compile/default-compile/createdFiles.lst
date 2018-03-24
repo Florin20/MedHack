@@ -1,6 +1,7 @@
 Models\MedicalFile.class
-Models\Recommendation.class
 Models\Physician.class
+Service\Service.class
 Models\Patient.class
-Controller\MyController.class
 Database\Database.class
+Models\Recommendation.class
+Controller\MyController.class

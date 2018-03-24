@@ -10,8 +10,12 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Database {
-    private List<Patient> patients;
-    private List<Physician> physicians;
+    private List<Patient> patients = new ArrayList<Patient>();
+    private List<Physician> physicians = new ArrayList<Physician>();
+
+    public Database(){
+
+    }
 
     public Database(List<Patient> patients, List<Physician> physicians) {
         this.patients = patients;
@@ -39,9 +43,9 @@ public class Database {
         recommendations.add("rec1");
         recommendations.add("rec2");
         recommendations.add("rec3");
-        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1");
-        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1");
-        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","2");
+        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1,"2018-04-30","2018-05-10");
+        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1,"2018-04-30","2018-05-10");
+        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",2,"2018-04-30","2018-05-10");
 
 
         patients.add(new Patient(1,"2961231190438","Dora","Dumitrascu",21,"address1",medicalFile1));
