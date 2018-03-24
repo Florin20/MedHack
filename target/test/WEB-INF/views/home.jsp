@@ -9,9 +9,8 @@
 <html>
 <head>
     <title>Success</title>
-    <p>You are a patient, great!</p>
 </head>
-<body>
+<body style = "background-color: #525D76">
 
 </body>
 </html>

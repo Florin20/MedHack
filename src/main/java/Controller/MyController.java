@@ -32,6 +32,7 @@ public class MyController {
         if(type.equals("Patient")) {
             String cnp = service.checkPatient(code);
             if (! "null".equals(cnp)) {
+                model.addAttribute("code", code);
                 returnedView = "cnp-validation";
             }
         }
