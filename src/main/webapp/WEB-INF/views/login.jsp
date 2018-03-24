@@ -1,8 +1,8 @@
 
 <html>
 <body>
-<form action = "/loginPage" action = "POST">
-    <select>
+<form action = "/loginPage" method = "POST">
+    <select name = "type">
         <option value = "Physician">Physician</option>
         <option value = "Patient">Patient</option>
     </select>

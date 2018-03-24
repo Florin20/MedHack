@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-C:\Users\Florin\Desktop\test\src\main\java\Models\MedicalFile.java
-C:\Users\Florin\Desktop\test\src\main\java\Controller\MyController.java
-=======
 C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Controller\MyController.java
-C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Models\CData.java
->>>>>>> de00eab4a077c94ae4022d36893f907aea16b1d5
+C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Database\Database.java
+C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Models\MedicalFile.java
+C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Models\Patient.java
+C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Models\Physician.java
+C:\Users\marci\Desktop\MedHack\MedHack\src\main\java\Models\Recommendation.java

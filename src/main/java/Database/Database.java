@@ -1,8 +1,17 @@
 package Database;
 
+import Models.Patient;
+import Models.Physician;
+
+import java.util.List;
+
 public class Database {
     private List<Patient> patients;
     private List<Physician> physicians;
+
+    public Database(){
+
+    }
 
     public Database(List<Patient> patients, List<Physician> physicians) {
         this.patients = patients;

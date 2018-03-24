@@ -1,2 +1,4 @@
 Models\MedicalFile.class
-Controller\MyController.class
+Models\Physician.class
+Models\Patient.class
+Database\Database.class
