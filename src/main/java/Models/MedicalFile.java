@@ -7,11 +7,11 @@ public class MedicalFile {
     private String diagnostic;
     private List<String> recommendations;
     private String medicalFileDate;
-    private String responsiblePhysician;
+    private Integer responsiblePhysician;
     private String admission;
     private String discharge;
 
-    public MedicalFile(String diagnostic, List<String> recommendations, String medicalFileDate, String responsiblePhysician
+    public MedicalFile(String diagnostic, List<String> recommendations, String medicalFileDate, Integer responsiblePhysician
     ,String hospitalizationStart, String hospitalizationEnd){
         this.diagnostic = diagnostic;
         this.recommendations = recommendations;
@@ -45,11 +45,11 @@ public class MedicalFile {
         this.medicalFileDate = medicalFileDate;
     }
 
-    public String getResponsiblePhysician() {
+    public Integer getResponsiblePhysician() {
         return responsiblePhysician;
     }
 
-    public void setResponsiblePhysician(String responsiblePhysician) {
+    public void setResponsiblePhysician(Integer responsiblePhysician) {
         this.responsiblePhysician = responsiblePhysician;
     }
 

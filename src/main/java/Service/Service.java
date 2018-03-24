@@ -7,12 +7,12 @@ import Models.Physician;
 import java.util.ArrayList;
 import java.util.List;
 
+@org.springframework.stereotype.Service
 public class Service {
 
     private Database database = new Database();
 
     public Service(){
-
     }
 
     public String checkPatient(String code){
@@ -25,5 +25,9 @@ public class Service {
             }
         }
         return cnp;
+    }
+
+    public Database getDatabase() {
+        return database;
     }
 }

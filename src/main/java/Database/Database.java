@@ -18,9 +18,9 @@ public class Database {
         recommendations.add("rec1");
         recommendations.add("rec2");
         recommendations.add("rec3");
-        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1", "2018-04-17", "2018-05-19");
-        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1", "2018-04-17", "2018-05-19");
-        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","2", "2018-04-17", "2018-05-19");
+        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1,"2018-04-17", "2018-05-19");
+        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1, "2018-04-17", "2018-05-19");
+        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",2, "2018-04-17", "2018-05-19");
 
 
         patients.add(new Patient(1,"2961231190438","Dora","Dumitrascu",21,"address1",medicalFile1));
@@ -57,9 +57,11 @@ public class Database {
         recommendations.add("rec1");
         recommendations.add("rec2");
         recommendations.add("rec3");
-        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1", "2018-04-17", "2018-05-19");
-        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1", "2018-04-17", "2018-05-19");
-        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","2", "2018-04-17", "2018-05-19");
+
+        MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1, "2018-04-17", "2018-05-19");
+        MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",1, "2018-04-17", "2018-05-19");
+        MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24",2, "2018-04-17", "2018-05-19");
+
 
 
         patients.add(new Patient(1,"2961231190438","Dora","Dumitrascu",21,"address1",medicalFile1));
