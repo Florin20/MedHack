@@ -1,2 +1,2 @@
-Models\CData.class
+Models\MedicalFile.class
 Controller\MyController.class
