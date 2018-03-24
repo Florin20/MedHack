@@ -36,7 +36,9 @@ public class Database {
 
     public void test(){
         ArrayList<String> recommendations = new ArrayList<String>();
-        recommendations = (ArrayList<String>) Arrays.asList(new String[]{"rec1","rec2","rec3","rec4"});
+        recommendations.add("rec1");
+        recommendations.add("rec2");
+        recommendations.add("rec3");
         MedicalFile medicalFile1 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1");
         MedicalFile medicalFile2 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","1");
         MedicalFile medicalFile3 = new MedicalFile("diagnostic1",recommendations,"2018-03-24","2");

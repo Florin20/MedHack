@@ -7,7 +7,7 @@
         <option value = "Patient">Patient</option>
     </select>
     <br>
-    <input type = "text" value = "Code"> <br>
+    <input type = "text" name = "code"> <br>
     <input type = "submit" value ="Log In">
     <br>
 </form>
