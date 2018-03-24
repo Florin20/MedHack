@@ -2,6 +2,7 @@ package Models;
 
 public class Patient {
     private Integer code;
+    private String cnp;
     private String firstname;
     private String lastname;
     private Integer age;
@@ -10,8 +11,9 @@ public class Patient {
 
     public Patient(){}
 
-    public Patient(Integer code, String firstname, String lastname, Integer age, String address, MedicalFile medicalFile) {
+    public Patient(Integer code, String cnp, String firstname, String lastname, Integer age, String address, MedicalFile medicalFile) {
         this.code = code;
+        this.cnp = cnp;
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
@@ -65,6 +67,14 @@ public class Patient {
 
     public void setMedicalFile(MedicalFile medicalFile) {
         this.medicalFile = medicalFile;
+    }
+
+    public String getCnp() {
+        return cnp;
+    }
+
+    public void setCnp(String cnp) {
+        this.cnp = cnp;
     }
 }
 
